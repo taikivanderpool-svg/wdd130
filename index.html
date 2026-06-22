@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css"> 
+</head>
+<body>
+
+    <header>
+        <img src="/images/index_page_logo.png" alt="page logo" title="page logo"><!--logo image-->
+
+        <nav>
+            <!--hyper links to Home, ICE, WWR, and About me-->
+            <a href="index.html">Home</a>
+            <a href="ice.html">ICE</a>
+            <a href="">WWR</a>
+            <a href="">About me</a>
+        </nav> 
+    </header>
+
+    <!--come up with a page title for here-->
+    <h1>WDD130 Taiki's portal</h1>
+
+    <!--The displays for the boxes containing ICE, WWR, and About me information-->
+    <div id="boxes">
+        <div id="ice_box" class="info_boxes">
+            <a href=""><!--link to the ICE page. Same link as the ICE tab in the nav -->
+                <h3>ICE</h3> <!--top left label for the box-->
+            </a>
+
+            <h4>ICE challenges are 30-60 minute exercises in which students practice with HTML and CSS code to build a small website according to a certain set of instructions and objectives.</h4> <!--Top right text box describing ICE challanges-->
+
+            <img src="images/ice_cube.png" alt="image of an ice cube"><!--Picture of a glacier-->
+
+            <ul class="big_box"><!--unordered list of ICE challenge assignments-->
+                <h2>Ice Challenges</h2>
+                <li>Apostle spotlight</li>
+                <li>Fathers day</li>
+                <li>Favorite devotional</li>
+                <li>Gallery</li>
+                <li>Grid flags</li>
+                <li>Positioning</li>
+                <li>Prophet cards</li>
+                <li>Signup</li>
+            </ul>
+
+        </div>
+
+        <div id="wwr_box" class="info_boxes">
+            <a href=""><!--link to the WWR page. Same link as the WWR tab in the nav -->
+                <h3>WWR</h3> <!--top left label for the box-->
+            </a>
+
+            <h4>White Water Rafting</h4> <!--Top center text box describing the WWR acronym-->
+
+            <img src="/images/logo.png" alt="WWR page logo" title="WWR page logo"><!--picture of the WWR logo-->
+
+            <p class="big_box"><!--text box describing what the WWR assignment was-->
+                The White Water Rafting page was an opening assignment to the Web Fundamentals course at 
+                BYUI. This assignment was meant to familiarize and indroduce HTML and CSS elements to 
+                students. The White Water Rafting page is a portal page to a theoretical company that 
+                offers, as you might suspect, white water rafting tours and equiptment.
+            </p>
+
+        </div>
+
+        <div id="about_me_box" class="info_boxes">
+            <a href=""><!--link to the About me page. Same link as the About me tab in the nav -->
+                <h3>About me</h3> <!--top left label for the box-->
+            </a>
+
+            <h4>Spencer Taiki Vanderpool</h4> <!--Top center text box with my full name-->
+            
+            <img src="/images/barn_owl_in_jacaranda.png" alt="Barn owl in a jacaranda tree" title="barn owl in a jacaranda tree"><!--picture of a silly owl-->
+
+            <ul class="big_box"><!--A personal introduction of myself-->
+                <li>Student at BYU-Idaho</li>
+                <li>Computer Science major</li> 
+                <li>Hobbies include piano, writing short stories, homework, Dungeons & Dragons, climbing trees, and cooking</li>
+                <li>Interests include narrative writing, fantasy, owls, birds, dinosaurs, metacognition, and the fundamental mechanics of natural and artificial processes</li>
+                <li>Intermediate Japanese speaker</li> 
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="bird_box">
+
+        <div id="form_box">
+            <h3>What is your favorite bird?</h3> <!--question prompt for the form-->
+            <form> <!--form that asks what the user's favorite bird is-->
+                <input type="text">
+                <button type="button">Submit</button>
+            </form>
+            <h3>Here are some ideas</h3>
+
+            <div id="various_birds">
+                <img class="bird_photo" id="blue_jay" src="images/blue_jay.png" alt="photo of a blue jay" title="blue jay">
+                <img class="bird_photo" id="cassowary" src="images/cassowary.png" alt="photo of a cassowary" title="cassowary">
+                <img class="bird_photo" id="northern_harrier" src="images/northern_harrier.png" alt="photo of a northern harrier" title="northern harrier">
+                <img class="bird_photo" id="potoo" src="images/potoo.png" alt="photo of a potoo" title="potoo">
+                <img class="bird_photo" id="pygmy_owl" src="images/pygmy_owl.png" alt="photo of a pygmy owl" title="pygmy owl">
+                <img class="bird_photo" id="secretary_bird" src="images/secretary_bird.png" alt="photo of a secretary bird" title="secretary bird">
+            </div>
+        </div>
+
+        <table> <!--table that showcases various species of owls, their global populations, and their heights-->
+            <tr>
+                <th>Species</th>
+                <th>Global Populations</th>
+                <th>Wing span</th>
+            </tr>
+            <tr>
+                <td>Barn Owl</td>
+                <td>4 Million-1 Billion</td>
+                <td>39.4-39.2in<br>(100-125cm)</td>
+            </tr>
+            <tr>
+                <td>Great Horned Owl</td>
+                <td>5.7 Million</td>
+                <td>39.8-57.1in<br>(101-145cm)</td>
+            </tr>
+            <tr>
+                <td>Dodo</td>
+                <td>Extinct</td>
+                <td>22-26in<br>(56-66)cm</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <footer>
+            <img src="/images/index_page_logo.png" id="footer_logo"><!--Logo image-->
+
+            <a href="https://www.youtube.com/watch?v=5SZYz7lZRRI&list=RD5SZYz7lZRRI&start_radio=1" target="_blank">
+                <img src="/images/instagram.png" class="footer_img">
+            </a>
+            <a href="https://www.youtube.com/watch?v=5SZYz7lZRRI&list=RD5SZYz7lZRRI&start_radio=1" target="_blank">
+                <img src="/images/facebook.png" class="footer_img">
+            </a>
+            <a href="https://www.youtube.com/watch?v=5SZYz7lZRRI&list=RD5SZYz7lZRRI&start_radio=1" target="_blank"><img src="/images/twitter.png" class="footer_img"></a>
+
+            <p>WDD130 Taiki's Portal &copy;2026</p>
+        </footer>
+</body>
+</html>

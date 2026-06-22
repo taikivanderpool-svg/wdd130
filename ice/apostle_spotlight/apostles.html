@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+
+        body{
+            background-color: #E8ECED;
+            font-family: "Arial";
+        }
+
+        #card{
+            background-image: url(images/christus.webp);
+            background-position: -200px 0px;
+            background-size: 150%;
+            border: 7px solid #000000; 
+            border-radius: 30px;
+            width: 780px;
+            justify-self: center;
+            justify-items: center;
+            padding-bottom: 30px;
+        }
+
+        h1{
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+        #presidency{
+            margin-bottom: -10px;
+            display: flex;
+        }
+
+        .counselors{
+            width: 110px;
+        }
+
+        .president{
+            width: 120px; 
+        }
+
+        .presidency_borders{
+            border: 7px solid #FFFFFF;
+            border-radius: 50%;
+            overflow:hidden;
+        }
+
+        .presidency_borders:hover{
+            border: 7px solid #000000;
+        }
+
+        #presidency #eyring{
+            height: 110px;
+            width: 110px;
+            margin-top: 20px;
+        }
+
+        #presidency #oaks{
+            height: 120px;
+            width: 120px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #presidency #christofferson{
+            height: 110px;
+            width: 110px;
+            margin-top: 20px;
+        }
+
+        #quorum{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 1fr); 
+            gap: 20px;
+            align-content: center;
+            width: 400px;
+        }
+
+        .spotlights img{
+            border: 7px solid #FFFFFF;
+            border-radius: 50%;
+            height: 80px;
+            width:80px;
+            justify-self: center;
+        }
+
+        .spotlights img:hover{
+            border: 7px solid black;
+        }
+
+        h2{
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="card">
+        
+        <h1>First Presidency</h1>
+
+        <div id="presidency" >
+            <div id="eyring" class="presidency_borders">
+            <img class="counselors" src="images/eyring.webp" alt="Elder Eyring">
+            </div>
+            <div id="oaks" class="presidency_borders">
+            <img class="president" src="images/oaks.webp" alt="Elder Oaks">
+            </div>
+            <div id="christofferson" class="presidency_borders">
+            <img class="counselors" src="images/christofferson.webp" alt="Elder Christofferson">
+            </div>
+        </div>
+
+        <h2>
+            Quorum of the Twelve Apostles
+        </h2>
+
+        <div id="quorum" class="spotlights">
+            <img src="images/uchtdorf.webp">
+            <img src="images/bednar.webp">
+            <img src="images/cook.webp">
+            <img src="images/anderson.webp">
+            <img src="images/rasband.webp">
+            <img src="images/stevenson.webp">
+            <img src="images/renlund.webp">
+            <img src="images/gong.webp">
+            <img src="images/soares.webp">
+            <img src="images/kearon.webp">
+            <img src="images/causse.webp">
+            <img src="images/gilbert.webp">
+        </div>
+
+
+
+
+    </div>
+</body>
+</html>

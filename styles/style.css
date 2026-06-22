@@ -1,0 +1,267 @@
+@font-face {
+    font-family: "Comforter_brush";
+    src: url(/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
+}
+
+
+
+body{
+    background-color: #F1BF98;
+    color: #08415C;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-family: "Comforter_brush";
+}
+
+header{
+    display: flex;
+    background-color: #EEE5E9;
+    height: 200px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 200px;
+    background-image: linear-gradient(to right, #EEE5E9 80%, #F1BF98 100%);
+}
+
+header img{
+    height: 300px;
+    float: left;
+    border-radius: 100%;
+    margin-right: 10px;
+    
+}
+
+nav a{
+    
+    font-size: 35px;
+    grid-row: 2/3;
+    border-collapse: collapse;
+    padding: 10px;
+    min-width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: #EEE5E9;
+    background-color: #08415C;
+} 
+
+nav a:hover{
+    background-color: #EEE5E9;
+    color: #E34A6F;
+}
+
+nav{
+    display: flex;
+    gap:-1px;
+    margin-top: auto;
+}
+
+
+h1{
+    background-color: #EEE5E9;
+    justify-self: center;
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    align-content: center;
+    color: #08415C;
+    border: solid 1px #08415C;
+}
+
+
+.info_boxes{
+    padding: 10px;
+    display: grid; 
+    grid-template-columns: 140px 60px 70px 30px 1fr ;
+    grid-template-rows: 100px 260px;
+    background-color: #EEE5E9;
+    width: 800px; 
+    height: 360px;
+    justify-self: center;
+    border: solid 1px #08415C;
+    margin: 20px;
+}
+
+.info_boxes a{
+    border: solid 1px #08415C;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: #08415C;
+}
+
+.info_boxes a:hover{
+    color: #EEE5E9;
+    background-color: #08415C;
+}
+
+.info_boxes h4{
+    border: solid 1px #08415C;
+    grid-column: 3/6;
+    text-align: center;
+    margin-top: 17px;
+    height: 55.5px;
+    width: 598px;
+}
+
+.info_boxes img{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    height: 100%;
+}
+
+.info_boxes .big_box{
+    border: solid 1px #08415C;
+    grid-column: 5/6;
+}
+
+.info_boxes p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+#ice_box ul li{
+    margin-left: 30px;
+}
+
+#ice_box ul h2{
+    margin-bottom: 0px;
+}
+
+#wwr_box h4{
+    font-size: 45px;
+} 
+
+#about_me_box h4{
+    font-size: 25px;
+    align-content: center;
+}
+
+#about_me_box ul{
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.ice_challenge_title_cards{
+    font-size: 40px;
+}
+
+
+#bird_box{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background-color: #EEE5E9;
+    width: 1000px;
+    height: 500px;
+    justify-self: center;
+    border: solid 1px #08415C;
+    margin: 20px;
+    padding: 50px;
+}
+
+#form_box{
+    border: solid 1px #08415C;
+    width: 350px;
+    height: 100%;
+    justify-items: center;
+}
+
+#bird_box table{
+    grid-column: 2/3;
+    border: solid 1px #08415C;
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#bird_box table td{
+    border: solid 1px #08415C;
+}
+
+#bird_box table th{
+    border: solid 1px #08415C;
+    font-size: 25px;
+}
+
+#various_birds{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bird_photo{
+    height: 100px;
+    width: 100px;
+}
+
+.bird_photo:hover{
+    transform: scale(1.5);
+    overflow: visible;
+    z-index: 10;
+}
+
+#blue_jay{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#cassowary{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#northern_harrier{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#potoo{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#pygmy_owl{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#secretary_bird{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+footer{
+    display:flex;
+    background-color: #EEE5E9;
+    height: 120px;
+    border-top-left-radius: 50px;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #EEE5E9 80%, #F1BF98 100%);
+    align-items: end;
+}
+
+footer #footer_logo{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    opacity: 30%;
+    font-size: 80%;
+    margin-left: 20%
+} 
+
+footer .footer_img{
+    height: 50px;
+    margin: 10px;
+}
